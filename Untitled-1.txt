@@ -1,0 +1,14 @@
+<table>
+        <thead>
+                <tr>
+                     <th>姓名</th>
+                     <th>学号</th>
+                     <th>性别</th>
+        </thead>
+        <tbody>
+                <tr>
+                    <th>A</th>
+                    <th>01</th>
+                    <th>男</th>
+                </tr>
+                     
