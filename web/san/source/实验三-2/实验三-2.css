@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+padding:0px;
+margin:0px;
+line-height:20px;
+}
+body{height: 100%;
+	background-color:azure;
+	position: relative;
+     }
+img{border:10px}
+#mian_block{
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	color: aquamarine;
+	overflow: hidden;
+	float: left；
+	width:752px;
+}
+.content_mian{
+	width: 720px;
+	float: left;
+	padding: 20px 0 10px 20px;
+}
+.box_details{
+	padding: 10px 0 10px 0;
+	maigin:10px 20px 10px 0;
+	clear: both;
+}
+.box_details p{
+	padding:5px 15px 5px 15px;
+	text_indent:2em;
+}
+img.right{
+	float: right;
+	padding:0 0 0 30px;
+}

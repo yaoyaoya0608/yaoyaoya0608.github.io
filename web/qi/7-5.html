@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-2</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        *{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <button id="on">开灯</button>
+    <img id="img" src="source/1.png"alt="">
+    <button id="off">关灯</button>
+    <script>
+        window.onload = function(){
+            var img = document.getElementById("img")
+            var on = document.getElementById('on')
+            var off = document.getElementById('off')
+            on.onclick = function(){img.src="source/2.png"}
+            off.onclick = function(){img.src=("source/1.png")}
+        }
+    </script>
+</body>
+</html>

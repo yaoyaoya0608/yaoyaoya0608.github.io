@@ -1,0 +1,39 @@
+.test ul{
+    list-style: none;
+}
+.test{
+    width: 700px;
+	margin-top: 150px;
+    margin: 0 auto;
+}
+li{
+    float: left;
+    width: 100px;
+    background-color:#CCC;
+    margin-left:2px;
+    line-height: 50px;
+}
+.test a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+}
+.tset a:link{
+    color:#666;
+    background:#428EE1;
+    text-decoration:none;
+}
+.tset a:visited{
+    color:#666;
+    text-decoration:underline;
+}
+.tset a:hover{
+    color:#FFF;
+   font-weight:bold;
+	text-decoration:none;
+    background:lightgrey;
+}
+img{
+    width:20px;
+    height:20px;
+}
